@@ -1,0 +1,28 @@
+{
+  "name": "wss-crud-api",
+  "version": "1.0.0",
+  "description": "A WebSocket Secure (WSS) CRUD API with Node.js, Express, and ws",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "websocket",
+    "wss",
+    "crud",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "Vaibhav Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
